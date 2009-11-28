@@ -1,0 +1,73 @@
+<html>
+<head>
+</head>
+<body style="text-align: center;">
+<div id="header">
+	<h3>Gradebook</h3>
+</div>
+<div id="content">
+<table>
+	<TR>
+		<TD style="font-size: 1.05em;">
+			<select>
+				<option><strong>Select a class</strong></option>
+				{% if classes %}
+				{% for class in classes %}
+				<option value="{{ class.id }}"{% ifequal class.id this_class.id %} selected="selected"{% endifequal %}>{{ class.title }}: {{ class.description }}</option>
+				{% endfor %}
+				{% else %}
+				<option>No classes found</option>
+				{% endif %}
+			</select></TD>
+		<td><a href="edit/" target="_blank"><strong>edit this class</strong></a></td>
+		<TD><a href="#">Print</a> </TD>
+	</tr>
+</table>
+<!-- Begin Gradebook Spreadsheet -->
+<table>
+	<thead style="text-align: center; background: #dddddd">
+		<tr>
+			<th><input type="checkbox"></th>
+			<th>Student Name</th>
+			<th><a href="addeditassignment.html" target="_blank">Assignment 1</a></th>
+			<th><a href="addeditassignment.html" target="_blank">Assignment N</a></th>
+			<th><a href="addeditassignment.html" target="_blank">+</a></th>
+			<th>Student Totals</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% if my_student_list %}
+		{% for student in my_student_list %}
+		<tr>
+			<td><input type="checkbox"></td>
+			<TD><strong>{{ student.last_name}}, {{ student.first_name}}</strong></TD>
+			<td><a href="addeditgrade.html" target="_blank">20</a> / <a href="addeditassignment.html" target="_blank">100</a> ( <a href="gradescale.html" target="_blank">F</a> )</td>
+			<td>Etc.,</td>
+			<td>&nbsp;</td>
+			<td>20 / 100 (20%)</td>
+		</tr>
+		{% endfor %}
+		{% else %}
+		<tr>
+			<td colspan="6"><a href="student/add/">+ Start Adding Students</a></td>
+		</tr>
+		{% endif %}
+
+	</tbody>
+	<tfoot style="text-align: center; background: #dddddd;">
+		<tr>
+			<td></td>
+			<TD><strong>Class Averages</strong></TD>
+			<td>20 / <a href="addeditassignment.html" target="_blank">100</a> ( <a href="gradescale.html" target="_blank">F</a> )</td>
+			<td>etc.,</td>
+			<td></td>
+			<td>20 / 100 (20%) ( <a href="gradescale.html" target="_blank">F</a> )</td>
+		</tr>
+	</tfoot>
+</table>	
+<!-- End Gradebook Spreadsheet -->
+<p>Editors Note: The + in the assignment list is to add new assignments to the class.</p>
+<p>Also, clicking on the checkbox in the table header will select all of the students in the class.  Otherwise, the teacher can select individual students by selecting the checkbox next to his or her name.</p>
+</div>
+</body>
+</html>

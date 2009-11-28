@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body style="text-align: center;">
+<div id="header">
+	<h3>Click on students to add to the system</h3>
+</div>
+<div id="content">
+{% for student in object_list %}
+<p>{{ student.id }}: {{ student.first_name }} {{ student.last_name }}</p>
+{% endfor %}
+</div>
+</body>
+</html>
+

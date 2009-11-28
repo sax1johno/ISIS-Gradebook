@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body style="text-align: center;">
+<div id="header">
+	<h3>Add Student</h3>
+</div>
+<div id="content" style="text-align: left;">
+	{% if error_message %}<p class="error"><strong>{{ error_message }}</strong></p>{% endif %}
+	<form action="" method="post">
+	<table>
+	{% for elem in form %}
+	<tr><td>{{ elem.label_tag }}</td><td> {{ elem }} <td>{% if elem.errors %}<td>** {{ elem.errors }}</td>{% endif %}</tr>
+	{% endfor %}
+	</table>
+	<input type="submit" value="Submit Class Data" />
+	</form>
+</div>
+</body>
+</html>

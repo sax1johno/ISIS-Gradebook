@@ -1,0 +1,49 @@
+<html>
+<head>
+</head>
+<body style="text-align: center;">
+<div id="header">
+	<h3>Add Parent</h3>
+</div>
+<div id="content">
+	<table>
+	<TR>
+		<TD><strong><label for="student_data1">Parent Data:</label></strong></TD>
+		<td><input name="student_data1" type="text"></td>
+	</TR>
+	<TR>
+		<TD><strong><label for="student_data2">Parent Data2:</label></strong></TD>
+		<td><input name="student_data2" type="text"></td>
+	</TR>
+	<TR>
+		<TD><strong><label for="student_data3">etc</label></strong></TD>
+		<td><input name="student_data3" type="text"></td>
+	</TR>
+	<TR>
+		<TD><strong>Students that are linked to this parent:</strong><br />
+			<select multiple size="5">
+			<option value="A">Doe, John</option>
+			<option value="B">Doe, Jane</option>
+			<option value="C">Doe, Jamie</option>
+		</strong></TD>
+	</TR>
+	<tr><TD><hr></TD></tr>
+	<tr><TD><strong>Link to Students</strong></TD></tr>
+	<tr><TD><input type="text"><input type="button" value="Search"></td></tr>
+	<tr><TD>Search Results*:</TD></tr>
+	<tr><TD>
+		<select multiple size="5">
+			<option>result 1</option>
+			<option>result 2</option>
+			<option>result 3</option>
+		</select>
+	</TD></tr>
+	<tr><TD><input type="button" value="Make the Link"></TD></tr>
+	<tr><TD>-- OR --</TD></tr>
+	<tr><TD><a href="addstudents.html" target="_blank">Add a Student</a></TD></tr>
+	<tr><TD><strong><a href="#">Save</a></strong></TD></tr>
+	</table>
+	<p>* Editors Note: The search results will only appear if a search has been conducted.  Otherwise, it will be hidden.  Also, if a student is added from this page, the student is automatically linked with the parent.</p>
+</div>
+</body>
+</html>

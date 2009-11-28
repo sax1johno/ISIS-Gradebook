@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/gradebook/!svn/ver/3/branches/devel/isis/templates/registration
+END
+registration_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/gradebook/!svn/ver/3/branches/devel/isis/templates/registration/registration_form.html
+END
+activate.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gradebook/!svn/ver/3/branches/devel/isis/templates/registration/activate.html
+END
+activation_email_subject.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/gradebook/!svn/ver/3/branches/devel/isis/templates/registration/activation_email_subject.txt
+END
+registration_complete.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/gradebook/!svn/ver/3/branches/devel/isis/templates/registration/registration_complete.html
+END
+activation_email.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/gradebook/!svn/ver/3/branches/devel/isis/templates/registration/activation_email.txt
+END

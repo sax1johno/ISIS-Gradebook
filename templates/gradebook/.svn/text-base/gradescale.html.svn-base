@@ -1,0 +1,107 @@
+<html>
+<head>
+</head>
+<body style="text-align: center;">
+<div id="header">
+	<h3>Edit Grade Scale</h3>
+</div>
+<div id="content">
+	<table>
+		<TR>
+			<TH>Grade</TH>
+			<th>Percent</th>
+			<th>Delete</th>
+		</TR>
+		<tr>
+			<TD><input type="text" size="5" value="A+"></TD>
+			<td><input type="text" size="5" value="100">-<input type="text" value="97" size="5">%</td>
+			<td><a href="#">Delete [X]</a></td>
+		</tr>
+		<tr>
+			<TD><input type="text" size="5" value="A"></TD>
+			<td><input type="text" size="5" value="96.9">-<input type="text" value="93" size="5">%</td>
+			<td><a href="#">Delete [X]</a></td>
+		</tr>
+		<tr>
+			<TD><input type="text" size="5" value="A-"></TD>
+			<td><input type="text" size="5" value="92.9">-<input type="text" value="90" size="5">%</td>
+			<td><a href="#">Delete [X]</a></td>
+		</tr>
+		<tr>
+			<TD><input type="text" size="5" value="B+"></TD>
+			<td><input type="text" size="5" value="89.9">-<input type="text" value="87" size="5">%</td>
+			<td><a href="#">Delete [X]</a></td>
+
+		</tr>
+		<tr>
+			<TD><input type="text" size="5" value="B"></TD>
+			<td><input type="text" size="5" value="86.9">-<input type="text" value="83" size="5">%</td>
+			<td><a href="#">Delete [X]</a></td>
+
+		</tr>
+		<tr>
+			<TD><input type="text" size="5" value="B-"></TD>
+			<td><input type="text" size="5" value="82.9">-<input type="text" value="80" size="5">%</td>
+			<td><a href="#">Delete [X]</a></td>
+
+		</tr>
+		<tr>
+			<TD><input type="text" size="5" value="C+"></TD>
+			<td><input type="text" size="5" value="79.9">-<input type="text" value="77" size="5">%</td>
+			<td><a href="#">Delete [X]</a></td>
+
+		</tr>
+		<tr>
+			<TD><input type="text" size="5" value="C"></TD>
+			<td><input type="text" size="5" value="76.9">-<input type="text" value="73" size="5">%</td>
+			<td><a href="#">Delete [X]</a></td>
+
+		</tr>
+		<tr>
+			<TD><input type="text" size="5" value="C-"></TD>
+			<td><input type="text" size="5" value="72.9">-<input type="text" value="70" size="5">%</td>
+			<td><a href="#">Delete [X]</a></td>
+
+		</tr>
+		<tr>
+			<TD><input type="text" size="5" value="D+"></TD>
+			<td><input type="text" size="5" value="69.9">-<input type="text" value="67" size="5">%</td>
+			<td><a href="#">Delete [X]</a></td>
+
+		</tr>
+		<tr>
+			<TD><input type="text" size="5" value="D"></TD>
+			<td><input type="text" size="5" value="66.9">-<input type="text" value="63" size="5">%</td>
+			<td><a href="#">Delete [X]</a></td>
+
+		</tr>
+		<tr>
+			<TD><input type="text" size="5" value="D-"></TD>
+			<td><input type="text" size="5" value="62.9">-<input type="text" value="60" size="5">%</td>
+			<td><a href="#">Delete [X]</a></td>
+
+		</tr>
+		<tr>
+			<TD><input type="text" size="5" value="F"></TD>
+			<td><input type="text" size="5" value="59.9">-<input type="text" value="0" size="5">%</td>
+			<td><a href="#">Delete [X]</a></td>
+
+		</tr>
+		<tr><TD colspan="3">[+] Add </TD></tr>
+		<tr><TD colspan="3"><a href="#">Save</a></TD></tr>
+	</table>
+	<p>Editors note: When a new grade scale item is added, it will be added automatically in the proper order based on the percentage</p>
+	<table style="text-align: left;">
+		<tr><TD colspan="2">Editors note: Below is the add dialog, which appears after the + (add) button is pressed.</TD></tr>
+		<Tr>
+			<Th>Grade</Th>
+			<th>Percent</th>
+		</Tr>
+		<tr>
+			<TD><input type="text" size="5"></TD>
+			<td><input type="text" size="5">-<input type="text" size="5">%</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>

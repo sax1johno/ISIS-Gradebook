@@ -1,0 +1,41 @@
+9
+
+dir
+3
+http://svn.oc-technology.com/gradebook/branches/devel/isis/templates
+http://svn.oc-technology.com/gradebook
+
+
+
+2009-02-09T02:19:36.277110Z
+3
+john
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+registration
+dir
+
+gradebook
+dir
+

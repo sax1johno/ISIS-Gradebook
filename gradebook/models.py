@@ -1,0 +1,82 @@
+from django.db import models
+from django.contrib.auth.models import User, UserManager
+from django.forms import ModelForm
+
+# Create your models here.
+class Term(models.Model):
+  title = models.CharField(max_length=255)
+  description = models.CharField(max_length=255, blank=True, null=True)
+  next_term = models.ForeignKey('self', related_name="next term", null=True, blank=True)
+  previous_term = models.ForeignKey('self', related_name="previous term", null=True, blank=True)
+  start_date = models.DateTimeField('term start date')
+  end_date = models.DateTimeField('term end date')
+  def __unicode__(self):
+    return self.title
+
+class Teacher(User):
+  """ Create a Teacher object, that extends the auth User object.
+  """
+  objects = UserManager()
+  #def __unicode__(self):
+    #name = self.user.first_name + self.user.last_name
+    #return name
+    
+class Student(User):
+  """ Create a Student object, that extends the auth User object."""
+  objects = UserManager()
+  #def __unicode__(self):
+    #name = self.user.first_name + self.user.last_name
+    #return name
+   
+class GradeScale(models.Model):
+  title = models.CharField(max_length=50)
+  description = models.CharField(max_length=255)
+  #max_bracket_rank = models.IntegerField()
+  #min_bracket_rank = models.IntegerField()
+  def __unicode__(self):
+    return self.title
+
+class Class(models.Model):
+  title = models.CharField(max_length=255)
+  description = models.CharField(max_length=255, blank=True, null=True)
+  terms = models.ManyToManyField(Term, blank=True, null=True)
+  teacher = models.ForeignKey(Teacher, blank=True, null=True)
+  students = models.ManyToManyField(Student, blank=True, null=True)
+#  gradebook = models.OneToOneField(Gradebook, blank=True)
+  def __unicode__(self):
+    return self.title
+  class Meta:
+    verbose_name_plural = "classes"
+
+
+class Gradebook(models.Model):
+  grade_scale = models.ForeignKey(GradeScale)
+  gb_class = models.OneToOneField(Class)
+
+class AssignmentType(models.Model):
+  title = models.CharField(max_length=50)
+  weight = models.FloatField()
+  def __unicode__(self):
+    return self.title
+  
+class Assignment(models.Model):
+  gradebook = models.ForeignKey(Gradebook)
+  title = models.CharField(max_length=50)
+  description = models.CharField(max_length=255)
+  is_graded = models.BooleanField()
+  assignment_type = models.ForeignKey(AssignmentType)
+  weight = models.FloatField()
+  points_possible = models.FloatField()
+  grade_scale = models.ForeignKey(GradeScale)
+  
+class AssignmentScore(models.Model):
+  student = models.ForeignKey(Student)
+  assignment = models.ForeignKey(Assignment)
+  score = models.FloatField()
+  
+class GradeBracket(models.Model):
+  title = models.CharField(max_length=5)
+  rank = models.IntegerField()
+  min_points = models.FloatField()
+  max_points = models.FloatField()
+  grade_scale = models.ForeignKey(GradeScale)

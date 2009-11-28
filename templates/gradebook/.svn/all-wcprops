@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook
+END
+student_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gradebook/!svn/ver/5/branches/devel/isis/templates/gradebook/student_list.html
+END
+firstuse1.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook/firstuse1.html
+END
+addparents.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook/addparents.html
+END
+firstuse2.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook/firstuse2.html
+END
+firstuse3.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook/firstuse3.html
+END
+dashboard.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gradebook/!svn/ver/5/branches/devel/isis/templates/gradebook/dashboard.html
+END
+class_detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook/class_detail.html
+END
+addeditassignment.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook/addeditassignment.html
+END
+home.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook/home.html
+END
+class_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gradebook/!svn/ver/5/branches/devel/isis/templates/gradebook/class_form.html
+END
+gradescale.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook/gradescale.html
+END
+gradebook.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gradebook/!svn/ver/5/branches/devel/isis/templates/gradebook/gradebook.html
+END
+addpeople.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook/addpeople.html
+END
+optionaladd.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook/optionaladd.html
+END
+addeditgrade.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook/addeditgrade.html
+END
+editclasses.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook/editclasses.html
+END
+class_confirm_delete.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/gradebook/!svn/ver/5/branches/devel/isis/templates/gradebook/class_confirm_delete.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/gradebook/!svn/ver/3/branches/devel/isis/templates/gradebook/index.html
+END
+student_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/gradebook/!svn/ver/5/branches/devel/isis/templates/gradebook/student_form.html
+END

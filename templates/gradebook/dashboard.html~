@@ -1,0 +1,37 @@
+<html>
+<head>
+</head>
+<body style="text-align: center;">
+<div id="header" style="text-align: center;">
+	<h1>Welcome to OC-Technology's Gradebook</h1>
+	<h2>Dashboard</h2>
+</div>
+<div id="content" style="text-align: left; margin: 0 auto; width: 60%;">
+	<div id="classes" style="border: 1px solid; padding: 0 5px 0 5px; text-align: left;">
+	<h3>My classes</h3>
+	<ul>
+		{% if my_class_list %}
+		{% for class in my_class_list %}
+		<li><strong><a href="./class/{{ class.id }}" target="_blank">{{ class.title }}</a></strong> <a href="./class/{{ class.id }}/edit" target="_blank">Edit</a> <a href="./class/{{ class.id }}/delete">Delete</a>
+		</li>
+		{% endfor %}
+		{% else %}
+		<li><em style="color: grey;">No classes added yet</em></li>
+		{% endif %}
+	</ul>
+	</div>
+	<div id="navigation" style="text-align: center;">
+		<table style="width: 50%; text-align: center; margin: 0 auto;">
+			<TR>
+				<TD><a href="/gradebook/class/add/" target="_blank">Add Classes</a></TD>
+				<td><a href="/gradebook/people/" target="_blank">Add People</a></td>
+			</TR>
+			<tr>
+				<td></td>
+				<td><A href="/gradebook/people/list/" target="_blank">Edit People</A></td>
+			</tr>
+		</table>
+	</div>
+</div>
+</body>
+</html>

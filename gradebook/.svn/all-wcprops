@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gradebook/!svn/ver/3/branches/devel/isis/gradebook
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gradebook/!svn/ver/3/branches/devel/isis/gradebook/admin.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gradebook/!svn/ver/5/branches/devel/isis/gradebook/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/gradebook/!svn/ver/3/branches/devel/isis/gradebook/__init__.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/gradebook/!svn/ver/5/branches/devel/isis/gradebook/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/gradebook/!svn/ver/5/branches/devel/isis/gradebook/urls.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/gradebook/!svn/ver/5/branches/devel/isis/gradebook/forms.py
+END

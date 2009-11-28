@@ -1,0 +1,87 @@
+<html>
+<head>
+</head>
+<body>
+<div id="header" style="text-align: center;">
+	<h1>Welcome to OC-Technology's Gradebook</h1>
+	<p>To help get you set up, we've created a wizard to walk you through setting up your first class. </p>
+</div>
+<div id="content" style="padding: 0 50px 0 50px; text-align: center; width: 100%; margin: auto;">
+	<p>Step 1 of 3</p>
+	<p>Which grading scale best matches yours?</p>
+	<table style="width: 100%;">
+	<tr>
+		<td style="width: 25%;">
+			<input type="radio" name="scale" value="abcdf">
+			<table>
+			<tr>
+				<td>A</td>
+			</tr>
+			<tr>
+				<td>B</td>
+			</tr>
+			<tr>
+				<td>C</td>
+			</tr>
+			<tr>
+				<td>D</td>
+			</tr>
+			<tr>
+				<td>F</td>
+			</tr>
+			</table>
+		</td>
+		<td style="width: 25%;">
+			<input type="radio" name="scale" value="12345">
+			<table>
+			<tr>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>5</td>
+			</tr>
+			</table>
+		</td>
+		<td style="width: 25%;">
+			<input type="radio" name="scale">
+			<table>
+			<tr>
+				<td>O</td>
+			</tr>
+			<tr>
+				<td>VG</td>
+			</tr>
+			<tr>
+				<td>G</td>
+			</tr>
+			<tr>
+				<td>S</td>
+			</tr>
+			<tr>
+				<td>U</td>
+			</tr>
+			</table>
+		</td>
+		<td style="width: 25%;">
+			<input type="radio" name="scale">
+			<table>
+			<tr>
+				<td>Other*:</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+	<p style="width: 50%;">*Note: Selecting Other will require you to set up your grading scale for each class you teach.  Grading Scale can always be changed after adding a class</p>
+</div>
+</body>
+</html>

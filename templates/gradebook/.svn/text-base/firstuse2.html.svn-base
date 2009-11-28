@@ -1,0 +1,81 @@
+<html>
+<head>
+</head>
+<body>
+<div id="header" style="text-align: center;">
+	<h1>Welcome to OC-Technology's Gradebook</h1>
+	<p>To help get you set up, we've created a wizard to walk you through setting up your first class. </p>
+</div>
+<div id="content" style="text-align: center;">
+	<p>Step 2 of 3</p>
+	<p>Which type of School described below best matches yours?</p>
+	<table>
+	<tr align="center">
+		<td valign="top">
+			<input type="radio" name="school" value="K">
+			<table>
+			<tr align="center">
+				<td><strong>Kindergarden</strong></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+		<td valign="top">
+			<input type="radio" name="school" value="Elem">
+			<table>
+			<tr align="center">
+				<td><strong>Elementary School</strong></td>
+			</tr>
+			<tr>
+				<td>In the United States, this encompasses grades 1-5 (and sometimes 6), or students from around 5yrs-11yrs in age.  Elementary schools generally have only one teacher for all subjects.  Choosing this option will cause students to be added to all classes automatically.</td>
+			</tr>
+			</table>
+		</td>
+		<td valign="top">
+			<input type="radio" name="school" value="Mid">
+			<table>
+			<tr align="center">
+				<td><strong>Middle-School</strong></td>
+			</tr>
+			<tr>
+				<td>In the United States, Middle School encompasses grades 6-8 (or just 7-8), or students from around 11yrs-13yrs of age.  Middle Schools generally have one teacher for each subject, with one class for each period.  Choosing this option will ensure that students are only added to one class at a time, and that the "period" option is available.</td>
+			</tr>
+			</table>
+		</td>
+		<td valign="top">
+			<input type="radio" name="school" value="HS">
+			<table>
+			<tr align="center">
+				<td><strong>High School</strong><td>
+			</tr>
+			<tr>
+				<td>High School in the United States typically encompasses grades 9-12 (or 7-12), or students from ~12 yrs of age to 18 yrs of age.  High Schools generally have one teacher for each subject, with one class for each period.  Choosing this option will ensure that students are only added to one class at a time, and that the "period" option is available.</td>
+			</table>
+		</td>
+		<td valign="top">
+			<input type="radio" name="school" value="College">
+			<table>
+			<tr align="center">
+				<td><strong>College</strong></td>
+			</tr>
+			<tr>
+				<td>College classes in the United States are for students that are no longer enrolled in the mandatory schooling required by US law. These students are usually 17 or older. College classes are generally completely separated from each other, and are referred to as "courses".  Choosing this option will treat each class as a completely separate course, with the option for linking multiple courses in the case of labs.</td>
+			</tr>
+			</table>
+		</td>
+		<td valign="top">
+			<input type="radio" name="scale">
+			<table>
+			<tr align="center">
+				<td><strong>Other*:</strong></td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+	<p>*Note: Selecting Other will require you to set up classes manually, adding the desired features after adding the class.  Students will need to be explicitly copied between classes, and classes will need to be explicitly linked to each other.</p>
+</div>
+</body>
+</html>
